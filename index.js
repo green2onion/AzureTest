@@ -17,5 +17,5 @@ const server = http.createServer(app).listen(port, function (err) {
 
 
 app.get('/', function (request, response) {
-    response.sendFile('index.html', { root: path.join(__dirname, '../AzureTest') });
+    response.sendFile('index.html', { root: path.join(__dirname, '../site') });
 });
